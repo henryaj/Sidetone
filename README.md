@@ -17,3 +17,12 @@ Whatever.
 After selecting the input and output, click to turn off the Mute checkbox.
 Adjust the volume slider while speaking into the mic.
 You should hear your own voice in the output with minimal latency.
+
+# Installation and usage
+
+```bash
+pip3 install PyQt5
+python3 sidetone.py
+```
+
+Run `nohup python3 sidetone.py &` to background the process and detach it from the current shell.
